@@ -34,4 +34,7 @@ int main()
 
     Array2D<int, 2, 3> c(std::move(b));
     printArray2D(c);
+
+    const int* data = c.data();
+    std::cout << *data << std::endl;
 }
