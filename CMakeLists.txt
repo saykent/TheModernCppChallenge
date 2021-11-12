@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 add_subdirectory(IPv4Address)
 add_subdirectory(Array2D)
+add_subdirectory(LiteralsOfVariousTemperatureScales)
 
 add_executable(TheModernCppChallenge main.cpp)
 
