@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(CppWorkshops)
+project(TheModernCppChallenge)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -7,5 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 add_subdirectory(IPv4Address)
 add_subdirectory(Array2D)
 
-add_executable(CppWorkshops main.cpp)
+add_executable(TheModernCppChallenge main.cpp)
 

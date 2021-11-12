@@ -2,6 +2,6 @@
 
 int main()
 {
-    std::cout << "Hello, C++ workshop!" << std::endl;
+    std::cout << "Hello, The Modern Cpp Challenge!" << std::endl;
     return 0;
 }
